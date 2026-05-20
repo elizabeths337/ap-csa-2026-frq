@@ -9,6 +9,7 @@ public class Account {
       int num = 1;
       while (!(isAvailable(user))) {
         user = user + num;
+        num++;
       } 
       username = user;
     }
