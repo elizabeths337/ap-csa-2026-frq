@@ -8,7 +8,7 @@ public class Account {
     } else {
       int num = 1;
       while (!(isAvailable(user))) {
-        user = user + Integer.toString(num);
+        user = user + num;
       } 
       username = user;
     }
